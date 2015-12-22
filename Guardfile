@@ -50,7 +50,7 @@ guard :rspec, cmd: "bundle exec rspec" do
   
   #ficheros introducidos por mi
   watch(%r{^spec/.+_spec\.rb$})
-  watch(%r{^lib/prct10/(.+)\.rb$})     { |m| "spec/#{m[1]}_spec.rb" }
+  watch(%r{^lib/prct11/(.+)\.rb$})     { |m| "spec/#{m[1]}_spec.rb" }
   watch('spec/spec_helper.rb')  { "spec" }
   #fin de fichero introdicidos por mi
   
