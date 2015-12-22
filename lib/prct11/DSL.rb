@@ -9,17 +9,11 @@
 # end
 
 require "prct11/book"
-
-class DSL 
-  def self.Book(&block)
-    DSLBook.new(block)
-  end
-end
+require "prct11/journalarticle"
 
 class DSLBook < Book
-    attr_accessor :book
     
-    def initialize(block)
+    def initialize(&block)
         self.title = []
         self.editorial = []
         self.edition = []
@@ -46,6 +40,39 @@ class DSLBook < Book
        self.isbn = datos[:isbn]
        self.volume = datos[:volumen]
     end
-    
+end
 
+
+class DSLJournal < JournalArticle
+    
+    def initialize(&block)
+        self.title = []
+        self.date = []
+        self.number = []
+        self.volume = []
+        self.initpage =[]
+        self.finalpage = []
+        self.authors = []
+        self.title = ""
+        self.journal = []
+        instance_eval(&block)
+    end
+    
+    def title_(titles)
+        self.title = titles
+    end
+    
+    def author(author)
+        self.authors = author
+    end
+    
+    def journalarticle (datos = {})
+      self.title = datos[:nombre]
+       self.journal = datos[:periodico]
+       self.date  = datos[:fecha]
+       self.number = datos[:numero]
+       self.volume = datos[:volumen]
+       self.initpage = datos[:paginicio]
+       self.finalpage = datos[:pagfinal]
+    end
 end

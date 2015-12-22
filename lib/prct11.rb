@@ -7,6 +7,7 @@ require "prct11/magazinearticle"
 require "prct11/journalarticle"
 require "prct11/electronicdocument"
 require "prct11/APA"
+require "prct11/DSL"
 
 module Prct11
 end
