@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/gcpmendez/prct10.svg?branch=master)](https://travis-ci.org/gcpmendez/prct11)
-[![Coverage Status]([![Coverage Status](https://coveralls.io/repos/gcpmendez/prct11/badge.svg?branch=master&service=github)](https://coveralls.io/github/gcpmendez/prct11?branch=master))
+[![Coverage Status](https://coveralls.io/repos/gcpmendez/prct11/badge.svg?branch=master&service=github)](https://coveralls.io/github/gcpmendez/prct11?branch=master)
 
 
 # Práctica de laboratorio \#11
