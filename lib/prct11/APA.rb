@@ -15,12 +15,12 @@
 # Autor/responsable (fecha de publicaci´on). Título (edición), [tipo de medio]. Lugar de publicación:
 # editor. Disponible en: especifique la vía [fecha de acceso].
 
-require "prct10/reference"
-require "prct10/linkedList"
-require "prct10/book"
-require "prct10/magazinearticle"
-require "prct10/journalarticle"
-require "prct10/electronicdocument"
+require "prct11/reference"
+require "prct11/linkedList"
+require "prct11/book"
+require "prct11/magazinearticle"
+require "prct11/journalarticle"
+require "prct11/electronicdocument"
 
 class APA
 

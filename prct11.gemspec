@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'prct10/version'
+require 'prct11/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "prct10"
-  spec.version       = Prct10::VERSION
+  spec.name          = "prct11"
+  spec.version       = Prct11::VERSION
   spec.authors       = ["Germán Méndez"]
   spec.email         = ["gcpmendez@gmail.com"]
 
